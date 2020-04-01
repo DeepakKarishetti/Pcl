@@ -1,0 +1,8 @@
+/home/karishetti/pcl_stuff/pcl_filters/build/CMakeFiles/rebuild_cache.dir
+/home/karishetti/pcl_stuff/pcl_filters/build/CMakeFiles/outlier_rem.dir
+/home/karishetti/pcl_stuff/pcl_filters/build/CMakeFiles/plane_model_seg.dir
+/home/karishetti/pcl_stuff/pcl_filters/build/CMakeFiles/voxel_grid.dir
+/home/karishetti/pcl_stuff/pcl_filters/build/CMakeFiles/edit_cache.dir
+/home/karishetti/pcl_stuff/pcl_filters/build/CMakeFiles/stat_removal.dir
+/home/karishetti/pcl_stuff/pcl_filters/build/CMakeFiles/pass_thru.dir
+/home/karishetti/pcl_stuff/pcl_filters/build/CMakeFiles/proj_inliers.dir

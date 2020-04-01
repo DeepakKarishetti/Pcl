@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/karishetti/pcl_stuff/pcl_filters/build",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -DFLANN_STATIC -Dqh_QHpointer -DvtkDomainsChemistry_AUTOINIT=\"1(vtkDomainsChemistryOpenGL2)\" -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -DvtkRenderingOpenGL2_AUTOINIT=\"1(vtkRenderingGL2PSOpenGL2)\" -DvtkRenderingVolume_AUTOINIT=\"1(vtkRenderingVolumeOpenGL2)\" -I/usr/local/include/vtk-7.1 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -isystem /usr/local/include      -o CMakeFiles/outlier_removal.dir/outlier_removal.cpp.o -c /home/karishetti/pcl_stuff/pcl_filters/outlier_removal.cpp",
+  "file": "/home/karishetti/pcl_stuff/pcl_filters/outlier_removal.cpp"
+},
+{
+  "directory": "/home/karishetti/pcl_stuff/pcl_filters/build",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -DFLANN_STATIC -Dqh_QHpointer -DvtkDomainsChemistry_AUTOINIT=\"1(vtkDomainsChemistryOpenGL2)\" -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -DvtkRenderingOpenGL2_AUTOINIT=\"1(vtkRenderingGL2PSOpenGL2)\" -DvtkRenderingVolume_AUTOINIT=\"1(vtkRenderingVolumeOpenGL2)\" -I/usr/local/include/vtk-7.1 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -isystem /usr/local/include      -o CMakeFiles/plane_model_seg.dir/plane_model_seg.cpp.o -c /home/karishetti/pcl_stuff/pcl_filters/plane_model_seg.cpp",
+  "file": "/home/karishetti/pcl_stuff/pcl_filters/plane_model_seg.cpp"
+},
+{
+  "directory": "/home/karishetti/pcl_stuff/pcl_filters/build",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -DFLANN_STATIC -Dqh_QHpointer -DvtkDomainsChemistry_AUTOINIT=\"1(vtkDomainsChemistryOpenGL2)\" -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -DvtkRenderingOpenGL2_AUTOINIT=\"1(vtkRenderingGL2PSOpenGL2)\" -DvtkRenderingVolume_AUTOINIT=\"1(vtkRenderingVolumeOpenGL2)\" -I/usr/local/include/vtk-7.1 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -isystem /usr/local/include      -o CMakeFiles/voxel_grid.dir/voxel_grid.cpp.o -c /home/karishetti/pcl_stuff/pcl_filters/voxel_grid.cpp",
+  "file": "/home/karishetti/pcl_stuff/pcl_filters/voxel_grid.cpp"
+},
+{
+  "directory": "/home/karishetti/pcl_stuff/pcl_filters/build",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -DFLANN_STATIC -Dqh_QHpointer -DvtkDomainsChemistry_AUTOINIT=\"1(vtkDomainsChemistryOpenGL2)\" -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -DvtkRenderingOpenGL2_AUTOINIT=\"1(vtkRenderingGL2PSOpenGL2)\" -DvtkRenderingVolume_AUTOINIT=\"1(vtkRenderingVolumeOpenGL2)\" -I/usr/local/include/vtk-7.1 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -isystem /usr/local/include      -o CMakeFiles/stat_removal.dir/statistical_removal.cpp.o -c /home/karishetti/pcl_stuff/pcl_filters/statistical_removal.cpp",
+  "file": "/home/karishetti/pcl_stuff/pcl_filters/statistical_removal.cpp"
+},
+{
+  "directory": "/home/karishetti/pcl_stuff/pcl_filters/build",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -DFLANN_STATIC -Dqh_QHpointer -DvtkDomainsChemistry_AUTOINIT=\"1(vtkDomainsChemistryOpenGL2)\" -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -DvtkRenderingOpenGL2_AUTOINIT=\"1(vtkRenderingGL2PSOpenGL2)\" -DvtkRenderingVolume_AUTOINIT=\"1(vtkRenderingVolumeOpenGL2)\" -I/usr/local/include/vtk-7.1 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -isystem /usr/local/include      -o CMakeFiles/pass_thru.dir/pass_through.cpp.o -c /home/karishetti/pcl_stuff/pcl_filters/pass_through.cpp",
+  "file": "/home/karishetti/pcl_stuff/pcl_filters/pass_through.cpp"
+},
+{
+  "directory": "/home/karishetti/pcl_stuff/pcl_filters/build",
+  "command": "/usr/bin/c++   -DDISABLE_DAVIDSDK -DDISABLE_DSSDK -DDISABLE_ENSENSO -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DDISABLE_RSSDK -DEIGEN_USE_NEW_STDVECTOR -DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET -DFLANN_STATIC -Dqh_QHpointer -DvtkDomainsChemistry_AUTOINIT=\"1(vtkDomainsChemistryOpenGL2)\" -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -DvtkRenderingOpenGL2_AUTOINIT=\"1(vtkRenderingGL2PSOpenGL2)\" -DvtkRenderingVolume_AUTOINIT=\"1(vtkRenderingVolumeOpenGL2)\" -I/usr/local/include/vtk-7.1 -I/usr/local/include/pcl-1.8 -I/usr/include/eigen3 -I/usr/include/ni -I/usr/include/openni2 -isystem /usr/local/include      -o CMakeFiles/proj_inliers.dir/project_inliers.cpp.o -c /home/karishetti/pcl_stuff/pcl_filters/project_inliers.cpp",
+  "file": "/home/karishetti/pcl_stuff/pcl_filters/project_inliers.cpp"
+}
+]
