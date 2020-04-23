@@ -180,7 +180,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=features
+CMAKE_PROJECT_NAME:STATIC=pcd_read
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -491,6 +491,12 @@ features_BINARY_DIR:STATIC=/home/karishetti/pcl_stuff/pcl_features/build
 
 //Value Computed by CMake
 features_SOURCE_DIR:STATIC=/home/karishetti/pcl_stuff/pcl_features
+
+//Value Computed by CMake
+pcd_read_BINARY_DIR:STATIC=/home/karishetti/pcl_stuff/pcl_features/build
+
+//Value Computed by CMake
+pcd_read_SOURCE_DIR:STATIC=/home/karishetti/pcl_stuff/pcl_features
 
 
 ########################

@@ -8,6 +8,12 @@
 int main(int argc, char** argv)
 {
 	std::cout << "Introduction tutorial on 3d features estimation methods in PCL!" << "\n"; 
+	std::cout << "Usage: ./<exe> <pcd_file> \n";
+	if (argc != 2)
+	{
+		std::cerr << "Invalid arguments! \n";
+		exit(0);
+	}
 	// http://pointclouds.org/documentation/tutorials/how_features_work.php#how-3d-features-work
 
 	// ***** Estimate a set of surface normals for all the points in the input dataset *****

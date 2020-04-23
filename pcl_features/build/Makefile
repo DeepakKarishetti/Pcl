@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 3d_feat
+# Target rules for targets named pcd_read
 
 # Build rule for target.
-3d_feat: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 3d_feat
-.PHONY : 3d_feat
+pcd_read: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcd_read
+.PHONY : pcd_read
 
 # fast build rule for target.
-3d_feat/fast:
-	$(MAKE) -f CMakeFiles/3d_feat.dir/build.make CMakeFiles/3d_feat.dir/build
-.PHONY : 3d_feat/fast
+pcd_read/fast:
+	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/build
+.PHONY : pcd_read/fast
 
-3d_features.o: 3d_features.cc.o
+pcd_rotate.o: pcd_rotate.cc.o
 
-.PHONY : 3d_features.o
+.PHONY : pcd_rotate.o
 
 # target to build an object file
-3d_features.cc.o:
-	$(MAKE) -f CMakeFiles/3d_feat.dir/build.make CMakeFiles/3d_feat.dir/3d_features.cc.o
-.PHONY : 3d_features.cc.o
+pcd_rotate.cc.o:
+	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/pcd_rotate.cc.o
+.PHONY : pcd_rotate.cc.o
 
-3d_features.i: 3d_features.cc.i
+pcd_rotate.i: pcd_rotate.cc.i
 
-.PHONY : 3d_features.i
+.PHONY : pcd_rotate.i
 
 # target to preprocess a source file
-3d_features.cc.i:
-	$(MAKE) -f CMakeFiles/3d_feat.dir/build.make CMakeFiles/3d_feat.dir/3d_features.cc.i
-.PHONY : 3d_features.cc.i
+pcd_rotate.cc.i:
+	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/pcd_rotate.cc.i
+.PHONY : pcd_rotate.cc.i
 
-3d_features.s: 3d_features.cc.s
+pcd_rotate.s: pcd_rotate.cc.s
 
-.PHONY : 3d_features.s
+.PHONY : pcd_rotate.s
 
 # target to generate assembly for a file
-3d_features.cc.s:
-	$(MAKE) -f CMakeFiles/3d_feat.dir/build.make CMakeFiles/3d_feat.dir/3d_features.cc.s
-.PHONY : 3d_features.cc.s
+pcd_rotate.cc.s:
+	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/pcd_rotate.cc.s
+.PHONY : pcd_rotate.cc.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 3d_feat"
-	@echo "... 3d_features.o"
-	@echo "... 3d_features.i"
-	@echo "... 3d_features.s"
+	@echo "... pcd_read"
+	@echo "... pcd_rotate.o"
+	@echo "... pcd_rotate.i"
+	@echo "... pcd_rotate.s"
 .PHONY : help
 
 

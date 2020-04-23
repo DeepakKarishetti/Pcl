@@ -1,0 +1,1 @@
+/usr/bin/c++     -g    CMakeFiles/ransac.dir/ransac.cc.o  -o ransac  -L/usr/local/lib -rdynamic 

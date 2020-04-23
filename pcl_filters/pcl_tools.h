@@ -2,10 +2,6 @@
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
 #include <pcl/visualization/cloud_viewer.h>
-#include <thread>
-#include <pcl/common/common_headers.h>
-#include <pcl/visualization/pcl_visualizer.h>
-#include <pcl/console/parse.h>
 
 // the point type used with the point cloud data
 typedef pcl::PointXYZ pt_typ;
