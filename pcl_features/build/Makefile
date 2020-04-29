@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named bag_csv
+
+# Build rule for target.
+bag_csv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bag_csv
+.PHONY : bag_csv
+
+# fast build rule for target.
+bag_csv/fast:
+	$(MAKE) -f CMakeFiles/bag_csv.dir/build.make CMakeFiles/bag_csv.dir/build
+.PHONY : bag_csv/fast
+
+#=============================================================================
 # Target rules for targets named pcd_read
 
 # Build rule for target.
@@ -122,6 +135,33 @@ pcd_read: cmake_check_build_system
 pcd_read/fast:
 	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/build
 .PHONY : pcd_read/fast
+
+extract_data.o: extract_data.cpp.o
+
+.PHONY : extract_data.o
+
+# target to build an object file
+extract_data.cpp.o:
+	$(MAKE) -f CMakeFiles/bag_csv.dir/build.make CMakeFiles/bag_csv.dir/extract_data.cpp.o
+.PHONY : extract_data.cpp.o
+
+extract_data.i: extract_data.cpp.i
+
+.PHONY : extract_data.i
+
+# target to preprocess a source file
+extract_data.cpp.i:
+	$(MAKE) -f CMakeFiles/bag_csv.dir/build.make CMakeFiles/bag_csv.dir/extract_data.cpp.i
+.PHONY : extract_data.cpp.i
+
+extract_data.s: extract_data.cpp.s
+
+.PHONY : extract_data.s
+
+# target to generate assembly for a file
+extract_data.cpp.s:
+	$(MAKE) -f CMakeFiles/bag_csv.dir/build.make CMakeFiles/bag_csv.dir/extract_data.cpp.s
+.PHONY : extract_data.cpp.s
 
 pcd_rotate.o: pcd_rotate.cc.o
 
@@ -158,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bag_csv"
 	@echo "... pcd_read"
+	@echo "... extract_data.o"
+	@echo "... extract_data.i"
+	@echo "... extract_data.s"
 	@echo "... pcd_rotate.o"
 	@echo "... pcd_rotate.i"
 	@echo "... pcd_rotate.s"

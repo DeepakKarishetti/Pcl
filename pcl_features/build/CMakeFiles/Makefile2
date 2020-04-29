@@ -60,13 +60,50 @@ CMAKE_SOURCE_DIR = /home/karishetti/pcl_stuff/pcl_features
 CMAKE_BINARY_DIR = /home/karishetti/pcl_stuff/pcl_features/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/bag_csv.dir
+
+# All Build rule for target.
+CMakeFiles/bag_csv.dir/all:
+	$(MAKE) -f CMakeFiles/bag_csv.dir/build.make CMakeFiles/bag_csv.dir/depend
+	$(MAKE) -f CMakeFiles/bag_csv.dir/build.make CMakeFiles/bag_csv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karishetti/pcl_stuff/pcl_features/build/CMakeFiles --progress-num=1,2 "Built target bag_csv"
+.PHONY : CMakeFiles/bag_csv.dir/all
+
+# Include target in all.
+all: CMakeFiles/bag_csv.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bag_csv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karishetti/pcl_stuff/pcl_features/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bag_csv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karishetti/pcl_stuff/pcl_features/build/CMakeFiles 0
+.PHONY : CMakeFiles/bag_csv.dir/rule
+
+# Convenience name for target.
+bag_csv: CMakeFiles/bag_csv.dir/rule
+
+.PHONY : bag_csv
+
+# clean rule for target.
+CMakeFiles/bag_csv.dir/clean:
+	$(MAKE) -f CMakeFiles/bag_csv.dir/build.make CMakeFiles/bag_csv.dir/clean
+.PHONY : CMakeFiles/bag_csv.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/bag_csv.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/pcd_read.dir
 
 # All Build rule for target.
 CMakeFiles/pcd_read.dir/all:
 	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/depend
 	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karishetti/pcl_stuff/pcl_features/build/CMakeFiles --progress-num=1,2 "Built target pcd_read"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karishetti/pcl_stuff/pcl_features/build/CMakeFiles --progress-num=3,4 "Built target pcd_read"
 .PHONY : CMakeFiles/pcd_read.dir/all
 
 # Include target in all.

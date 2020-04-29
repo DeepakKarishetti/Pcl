@@ -1,4 +1,5 @@
-gmail#include <pcl/filters/passthrough.h> // Passthrough filter
+#include <pcl/filters/passthrough.h> // Passthrough filter
+#include "pcl_tools.h"
 
 int main(int argc, char** argv)
 {

@@ -103,7 +103,7 @@ clean: CMakeFiles/icp.dir/clean
 CMakeFiles/pairwise_icp.dir/all:
 	$(MAKE) -f CMakeFiles/pairwise_icp.dir/build.make CMakeFiles/pairwise_icp.dir/depend
 	$(MAKE) -f CMakeFiles/pairwise_icp.dir/build.make CMakeFiles/pairwise_icp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karishetti/pcl_stuff/pcl_registration/build/CMakeFiles --progress-num=5,6 "Built target pairwise_icp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karishetti/pcl_stuff/pcl_registration/build/CMakeFiles --progress-num=7,8 "Built target pairwise_icp"
 .PHONY : CMakeFiles/pairwise_icp.dir/all
 
 # Include target in all.
@@ -140,7 +140,7 @@ clean: CMakeFiles/pairwise_icp.dir/clean
 CMakeFiles/narf_features.dir/all:
 	$(MAKE) -f CMakeFiles/narf_features.dir/build.make CMakeFiles/narf_features.dir/depend
 	$(MAKE) -f CMakeFiles/narf_features.dir/build.make CMakeFiles/narf_features.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karishetti/pcl_stuff/pcl_registration/build/CMakeFiles --progress-num=3,4 "Built target narf_features"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karishetti/pcl_stuff/pcl_registration/build/CMakeFiles --progress-num=5,6 "Built target narf_features"
 .PHONY : CMakeFiles/narf_features.dir/all
 
 # Include target in all.
@@ -167,6 +167,43 @@ CMakeFiles/narf_features.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/narf_features.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/icp_reg.dir
+
+# All Build rule for target.
+CMakeFiles/icp_reg.dir/all:
+	$(MAKE) -f CMakeFiles/icp_reg.dir/build.make CMakeFiles/icp_reg.dir/depend
+	$(MAKE) -f CMakeFiles/icp_reg.dir/build.make CMakeFiles/icp_reg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/karishetti/pcl_stuff/pcl_registration/build/CMakeFiles --progress-num=3,4 "Built target icp_reg"
+.PHONY : CMakeFiles/icp_reg.dir/all
+
+# Include target in all.
+all: CMakeFiles/icp_reg.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/icp_reg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karishetti/pcl_stuff/pcl_registration/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/icp_reg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karishetti/pcl_stuff/pcl_registration/build/CMakeFiles 0
+.PHONY : CMakeFiles/icp_reg.dir/rule
+
+# Convenience name for target.
+icp_reg: CMakeFiles/icp_reg.dir/rule
+
+.PHONY : icp_reg
+
+# clean rule for target.
+CMakeFiles/icp_reg.dir/clean:
+	$(MAKE) -f CMakeFiles/icp_reg.dir/build.make CMakeFiles/icp_reg.dir/clean
+.PHONY : CMakeFiles/icp_reg.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/icp_reg.dir/clean
 
 .PHONY : clean
 

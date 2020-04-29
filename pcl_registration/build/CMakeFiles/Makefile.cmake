@@ -174,4 +174,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/icp.dir/DependInfo.cmake"
   "CMakeFiles/pairwise_icp.dir/DependInfo.cmake"
   "CMakeFiles/narf_features.dir/DependInfo.cmake"
+  "CMakeFiles/icp_reg.dir/DependInfo.cmake"
   )

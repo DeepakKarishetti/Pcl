@@ -149,6 +149,19 @@ narf_features/fast:
 	$(MAKE) -f CMakeFiles/narf_features.dir/build.make CMakeFiles/narf_features.dir/build
 .PHONY : narf_features/fast
 
+#=============================================================================
+# Target rules for targets named icp_reg
+
+# Build rule for target.
+icp_reg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 icp_reg
+.PHONY : icp_reg
+
+# fast build rule for target.
+icp_reg/fast:
+	$(MAKE) -f CMakeFiles/icp_reg.dir/build.make CMakeFiles/icp_reg.dir/build
+.PHONY : icp_reg/fast
+
 icp.o: icp.cc.o
 
 .PHONY : icp.o
@@ -175,6 +188,33 @@ icp.s: icp.cc.s
 icp.cc.s:
 	$(MAKE) -f CMakeFiles/icp.dir/build.make CMakeFiles/icp.dir/icp.cc.s
 .PHONY : icp.cc.s
+
+icp_registration.o: icp_registration.cpp.o
+
+.PHONY : icp_registration.o
+
+# target to build an object file
+icp_registration.cpp.o:
+	$(MAKE) -f CMakeFiles/icp_reg.dir/build.make CMakeFiles/icp_reg.dir/icp_registration.cpp.o
+.PHONY : icp_registration.cpp.o
+
+icp_registration.i: icp_registration.cpp.i
+
+.PHONY : icp_registration.i
+
+# target to preprocess a source file
+icp_registration.cpp.i:
+	$(MAKE) -f CMakeFiles/icp_reg.dir/build.make CMakeFiles/icp_reg.dir/icp_registration.cpp.i
+.PHONY : icp_registration.cpp.i
+
+icp_registration.s: icp_registration.cpp.s
+
+.PHONY : icp_registration.s
+
+# target to generate assembly for a file
+icp_registration.cpp.s:
+	$(MAKE) -f CMakeFiles/icp_reg.dir/build.make CMakeFiles/icp_reg.dir/icp_registration.cpp.s
+.PHONY : icp_registration.cpp.s
 
 narf_feat.o: narf_feat.cpp.o
 
@@ -237,13 +277,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... icp"
 	@echo "... pairwise_icp"
 	@echo "... narf_features"
-	@echo "... rebuild_cache"
+	@echo "... icp_reg"
 	@echo "... icp.o"
 	@echo "... icp.i"
 	@echo "... icp.s"
+	@echo "... icp_registration.o"
+	@echo "... icp_registration.i"
+	@echo "... icp_registration.s"
 	@echo "... narf_feat.o"
 	@echo "... narf_feat.i"
 	@echo "... narf_feat.s"

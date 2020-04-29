@@ -7,10 +7,10 @@
 #IncludeRegexTransform: 
 
 /home/karishetti/pcl_stuff/pcl_filters/pass_through.cpp
-pcl_tools.h
-/home/karishetti/pcl_stuff/pcl_filters/pcl_tools.h
 pcl/filters/passthrough.h
 -
+pcl_tools.h
+/home/karishetti/pcl_stuff/pcl_filters/pcl_tools.h
 
 /home/karishetti/pcl_stuff/pcl_filters/pcl_tools.h
 iostream
